@@ -51,7 +51,7 @@ public class BabyVillagerModel extends VillagerModel {
         root.addOrReplaceChild("body",
                 CubeListBuilder.create().texOffs(0, 15).addBox(-2.0F, -3.25F, -1.5F, 4.0F, 5.0F, 3.0F, new CubeDeformation(0.5F)),
                 PartPose.offset(0.0F, 18.75F, 0.0F));
-        root.addOrReplaceChild("bb_main", CubeListBuilder.create().texOffs(16, 21).addBox(-2.5F, -8.5F, -1.5F, 4.0F, 6.0F, 3.0F, new CubeDeformation(0.3F)), PartPose.offset(0.5F, 24.0F, 0.0F));
+        root.addOrReplaceChild("bb_main", CubeListBuilder.create().texOffs(16, 21).addBox(-2.5F, -8.5F, -1.5F, 4.0F, 6.0F, 3.0F, new CubeDeformation(0.7F)), PartPose.offset(0.5F, 24.0F, 0.0F));
         return mesh;
     }
 }
